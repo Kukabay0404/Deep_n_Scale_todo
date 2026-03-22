@@ -1,0 +1,7 @@
+fastapi 
+pydantic-settings
+sqlalchemy
+asyncpg
+bcrypt[argon2]
+uuid6
+alembic
