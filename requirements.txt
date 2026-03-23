@@ -5,3 +5,4 @@ asyncpg
 bcrypt[argon2]
 uuid6
 alembic
+pydantic[email]
