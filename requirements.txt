@@ -1,4 +1,5 @@
 fastapi 
+uvicorn
 pydantic-settings
 sqlalchemy
 asyncpg
@@ -6,3 +7,5 @@ bcrypt[argon2]
 uuid6
 alembic
 pydantic[email]
+fastapi-users[sqlalchemy,oauth]
+python-multipart
