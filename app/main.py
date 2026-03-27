@@ -6,6 +6,7 @@ from app.api.routers import router
 app = FastAPI(
     openapi_tags=[
         {"name": "Users", "description": "Users endpoints"},
+        {'name' : 'Admin', 'description' : 'Admin endpoints'}
     ]
 )
 
